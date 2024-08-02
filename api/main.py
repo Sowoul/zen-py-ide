@@ -30,4 +30,4 @@ def get():
     import temp
     store=temp.main()
     return jsonify({'status' : 'success' , 'data' : store})
-app.run(debug=True, port = 8080)
+app.run(debug=True)
