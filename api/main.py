@@ -30,4 +30,5 @@ def get():
     import temp
     store=temp.main()
     return jsonify({'status' : 'success' , 'data' : store})
-app.run(debug=True)
+if __name__=='__main__":
+    app.run(debug=True)
